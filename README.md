@@ -53,6 +53,7 @@ thesis-project
 │   test_separation_jenia.ipynb
 ```
 
+**a-proof-zonmw**
 ```predict_copy_binary.py```: Using [Cecilia Kuan's](https://github.com/lececefifi/a-proof-zonmw) binary classifier for predictions
 
 ```predict_copy.py```: Using Jenia Kim's multi-label classification system for predictions, but adding confidence scores to the outcome
@@ -61,7 +62,7 @@ thesis-project
 
 ```config.json```: Configurations for my experiments
 
-
+**KeywordMatcher**
 ```all_sents_inspection.ipynb```: Inspecting the matched notes returned from KeywordMatcher and dividing their sentences into equal amounts per ICF category
 
 ```cs_eval_new3.ipynb```: Dividing the final data by confidence score into high or low quality data
@@ -78,20 +79,20 @@ thesis-project
 
 ```get_relevant_sents.py```: Get sentences matched with a keyword and category
 
-
+**Baseline**
 ```eval_eval.ipynb```: Evaluating the baseline on the development set
 
 ```eval_test.ipynb```: Evaluating the baseline on the test set
 
-
+**hq_data1**
 ```eval_ell_sh.ipynb```: Evaluating ModelHQ1 on the test set
 
 ```hq_data1 - eval.ipynb```: Evaluating ModelHQ1 on the development set
 
-
+**hq_data2 - lqhq_data3**
 ```hq_data2 - lqhq_data3```: Each of these folders includes one ```eval.ipynb```file, that evaluates the model on the development set, and one .png file that shows its confusion matrix as a picture
 
-
+**General**
 ```eval_best_model.ipynb```: Inspecting all models' performances
 
 ```test_separation_ell_sh.ipynb```: Removing all none's from the original test set, after running them through Cecilia Kuan's binary classifier
