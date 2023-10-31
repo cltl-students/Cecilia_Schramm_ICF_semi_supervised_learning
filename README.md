@@ -17,12 +17,16 @@ thesis-project
 │       │   predict_copy_binary.py
 │       │   predict_copy.py
 │       │   train_model_copy.py
+│       │   config.json
 └───KeywordMatcher
 │       │   all_sents_inspection.ipynb
 │       │   cs_eval_new3.ipynb
 │       │   cs_inspection.ipynb
 │       │   index_inspection.ipynb
 │       │   matched_notes.ipynb
+│       │   convert copy.json
+│       │   get_relevant_sents_copy.py
+│       │   get_relevant_sents.py
 └───Baseline
 │       │   bl_eval_cm.png
 │       │   bl_eval_cm2.png
@@ -55,6 +59,9 @@ thesis-project
 
 ```train_model_copy.py```: Training Jenia Kim's model, either from the start or checkpoints
 
+```config.json```: Configurations for my experiments
+
+
 ```all_sents_inspection.ipynb```: Inspecting the matched notes returned from KeywordMatcher and dividing their sentences into equal amounts per ICF category
 
 ```cs_eval_new3.ipynb```: Dividing the final data by confidence score into high or low quality data
@@ -65,15 +72,25 @@ thesis-project
 
 ```matched_notes.ipynb```: Inspecting the matched notes from KeywordMatcher by amounts
 
+```convert copy.json```: Configurations for my experiments
+
+```get_relevant_sents_copy.py```: Get sentences matched with a keyword and category, no duplicates
+
+```get_relevant_sents.py```: Get sentences matched with a keyword and category
+
+
 ```eval_eval.ipynb```: Evaluating the baseline on the development set
 
 ```eval_test.ipynb```: Evaluating the baseline on the test set
+
 
 ```eval_ell_sh.ipynb```: Evaluating ModelHQ1 on the test set
 
 ```hq_data1 - eval.ipynb```: Evaluating ModelHQ1 on the development set
 
+
 ```hq_data2 - lqhq_data3```: Each of these folders includes one ```eval.ipynb```file, that evaluates the model on the development set, and one .png file that shows its confusion matrix as a picture
+
 
 ```eval_best_model.ipynb```: Inspecting all models' performances
 
@@ -82,10 +99,6 @@ thesis-project
 ```test_separation_jenia.ipynb```: Removing all none's from the original development set, after running them through Cecilia Kuan's binary classifier
 
 ```tfidf_scores_final.ipynb```: Calculating 20 highest ranked TF-IDF words per category
-
-```get_relevant_sents_copy.py```:
-
-```get_relevant_sents.py```: 
 
 
 
