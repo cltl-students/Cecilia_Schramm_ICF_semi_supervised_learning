@@ -1,5 +1,4 @@
 # Cecilia Schramm - Semi-supervised learning for data creation in the A-PROOF project
-This repository is an example for the structure and content that a CLTL thesis project may have. 
 
 # Overview
 This repository contains the code used in the thesis "Using Semi-supervised Learning to Automatically Annotate Dutch Medical Notes for Patients’ Functioning Levels" by Cecilia Schramm, supervised by Dr. Piek Vossen of the VU Amsterdam, in partial fulfilment of the requirements for the degree of an MA in Linguistics.
@@ -51,29 +50,43 @@ thesis-project
 ```
 
 ```predict_copy_binary.py```: Using [Cecilia Kuan's](https://github.com/lececefifi/a-proof-zonmw) binary classifier for predictions
+
 ```predict_copy.py```: Using Jenia Kim's multi-label classification system for predictions, but adding confidence scores to the outcome
+
 ```train_model_copy.py```: Training Jenia Kim's model, either from the start or checkpoints
 
 ```all_sents_inspection.ipynb```: Inspecting the matched notes returned from KeywordMatcher and dividing their sentences into equal amounts per ICF category
+
 ```cs_eval_new3.ipynb```: Dividing the final data by confidence score into high or low quality data
+
 ```cs_inspection.ipynb```: Inspecting the confidence scores given to the data
+
 ```index_inspection.ipynb```: Inspecting the matched notes from KeywordMatcher by year and category
+
 ```matched_notes.ipynb```: Inspecting the matched notes from KeywordMatcher by amounts
 
 ```eval_eval.ipynb```: Evaluating the baseline on the development set
+
 ```eval_test.ipynb```: Evaluating the baseline on the test set
 
 ```eval_ell_sh.ipynb```: Evaluating ModelHQ1 on the test set
+
 ```hq_data1 - eval.ipynb```: Evaluating ModelHQ1 on the development set
 
 ```hq_data2 - lqhq_data3```: Each of these folders includes one ```eval.ipynb```file, that evaluates the model on the development set, and one .png file that shows its confusion matrix as a picture
 
 ```eval_best_model.ipynb```: Inspecting all models' performances
+
 ```test_separation_ell_sh.ipynb```: Removing all none's from the original test set, after running them through Cecilia Kuan's binary classifier
+
 ```test_separation_jenia.ipynb```: Removing all none's from the original development set, after running them through Cecilia Kuan's binary classifier
+
 ```tfidf_scores_final.ipynb```: Calculating 20 highest ranked TF-IDF words per category
+
 ```get_relevant_sents_copy.py```:
+
 ```get_relevant_sents.py```: 
+
 
 
 # Data 
