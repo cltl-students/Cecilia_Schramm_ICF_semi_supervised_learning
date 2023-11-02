@@ -1,0 +1,22 @@
+{
+  "csv_paths" : [
+    "/mnt/data/A-Proof/data2/a-proof-zonmw/data/2017_raw/processed_2017.pkl",
+    "/mnt/data/A-Proof/data2/a-proof-zonmw/data/2018_raw/processed_2018.pkl",
+    "/mnt/data/A-Proof/data2/a-proof-zonmw/data/2020-Q4_2021-Q1_raw/processed_20-21.pkl",
+    "/mnt/data/A-Proof/data2/a-proof-zonmw/data/2020_raw/processed_2020.pkl"
+  ],
+  "csv_columnname" : "all_text",
+  "csv_delimiter" : ",",
+  "first_n_rows" : 10000,
+  "max_char_length" : 10000,
+  "text_to_conll" : {
+    "spacy_model_name" : "nl_core_news_sm",
+    "delimiter" : "  ",
+    "output_dir" : "/mnt/data/Users/A-PROOF/Cecilia_S/keyword_matches3/",
+    "spacy_attrs" : ["text", "ent_type_"],
+    "default_values" : {"ent_type_" : "O"},
+    "start_with_index" : false,
+    "exclude" : ["is_space"],
+    "overwrite_existing_conll_file" : false
+  }
+}

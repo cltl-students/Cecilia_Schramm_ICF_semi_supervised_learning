@@ -51,6 +51,7 @@ thesis-project
 │   jenia_test.ipynb
 │   test_separation_ell_sh.ipynb
 │   test_separation_jenia.ipynb
+│   tfidf_scores_final.ipynb
 ```
 
 **a-proof-zonmw**
